@@ -19,7 +19,7 @@ A 2D pygame project that creates a pseudo-3D environment using raycasting algori
 - Projection height of walls calculated by using similar triangles: projected height / screen distance calculated has the same ratio as wall height / depth
 - Wall height = 1 so projected height = screen distance / depth 
 - Value of depth of ray determines colour to add lighting
-- Convex walls fishbowl effect due to use of cartesian coordinate system along with polar fixed by multiplying depth value by cos of angle of players direction subtracted by ray angle
+- Convex walls fishbowl effect due to use of cartesian coordinate system along with polar fixed by multiplying depth value by cos of angle of player's direction subtracted by ray angle
 
 **Other:**
 - Number of rays less than screen resolution in width to maintain better performance
